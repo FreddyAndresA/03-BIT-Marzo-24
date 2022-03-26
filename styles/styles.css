@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --greyColor: #f1f1f1;
+    --redColor: #cb1517;
+    --blackColor: #191613;
+    --whiteColor: #fff;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo {
+    width: 100px;
+}
+
+.toggler {
+    border: none;
+}
+
+.navbar-position {
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.navbar-custom {
+    background-color: var(--greyColor);
+    border-radius: 20px;
+}
+
+.link-custom {
+    color: var(--blackColor) !important;
+}
+
+.link-custom::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background-color: var(--redColor);
+    transition: 0.5s;
+}
+
+.link-custom:hover::after {
+    width: 100%;
+}
+
+.link-active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background-color: var(--redColor);
+    transition: 0.5s;
+}
+
+.body {
+    background-image: url("/img/hero-image-large.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer {
+    background-color: var(--blackColor);
+    color: var(--greyColor);
+}
+
+.footer-links {
+    color: var(--greyColor);
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.footer-links:hover {
+    color: var(--greyColor);
+    opacity: 1 !important;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    opacity: 0.5;
+    margin: 0 1rem;
+    transition: opacity 0.5s;
+}
+
+.fa-brands:hover {
+    opacity: 1;
+}
+
+/* Aca finaliza el CSS del nabvar y del footer */
+
