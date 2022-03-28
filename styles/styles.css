@@ -26,7 +26,7 @@
 
 .navbar-custom {
     background-color: var(--greyColor);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .link-custom {
@@ -57,13 +57,6 @@
     transition: 0.5s;
 }
 
-.body {
-    background-image: url("/img/hero-image-large.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .footer {
     background-color: var(--blackColor);
     color: var(--greyColor);
@@ -91,5 +84,20 @@
     opacity: 1;
 }
 
-/* Aca finaliza el CSS del nabvar y del footer */
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+.divider {
+    width: 10%;
+    height: 10px;
+    background-color: var(--redColor);
+}
+
+.title {
+    color: var(--redColor);
+    margin: 100px 0;
+}
