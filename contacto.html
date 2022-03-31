@@ -27,11 +27,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link text-muted ms-auto link-custom link-active" aria-current="page"
+                        <a class="nav-link text-muted ms-auto link-custom" aria-current="page"
                             href="./index.html">Inicio</a>
                         <a class="nav-link text-muted ms-auto link-custom" href="./catalogo.html">Catálogo</a>
                         <a class="nav-link text-muted ms-auto link-custom" href="./nosotros.html">Nosotros</a>
-                        <a class="nav-link text-muted ms-auto link-custom" href="./contacto.html">Contacto</a>
+                        <a class="nav-link text-muted ms-auto link-custom link-active" href="./contacto.html">Contacto</a>
                         <a class="nav-link text-muted ms-auto link-custom" href="./pqr.html">PQR</a>
                     </div>
                 </div>
@@ -39,6 +39,80 @@
         </nav>
     </header>
 
+    <main class="contact container-fluid d-flex justify-content-center align-items-center">
+        <h1 class="text center fw-bold display-1 mt-5 text-white">Contacto</h1>
+    </main>
+
+    <section>
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.414026493914!2d-74.0339627224859!3d4.697910123257708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9aa8fefe5095%3A0x8cf2f6923774427c!2sAk.%209%20%23120-45%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1648437145070!5m2!1ses!2sco" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+                </div>
+                <div class="col-12 col-lg-5 mt-5">
+                    <div class="container">
+                        <h2 class="text-center text-lg-start">Información de contacto</h2>
+                        <div class="divider mx-auto mx-lg-0 my-3"></div>
+
+
+                        <div class="row mt-3 py-3 border-bottom">
+                            <div class="col-12">
+                                <i class="fa-solid fa-location-arrow me-3"></i>
+                                <p class="my-0 d-inline fs-5 color-black">Avenida Carrera 9 # 120 - 45</p>
+                                <p class="my-0 d-inline fs-5 color-black">Bogotá Colombia</p>
+                            </div>
+                        </div>
+                        <div class="row py-3 border-bottom">
+                            <div class="col-12">
+                                <i class="fa-solid fa-phone me-3"></i>
+                                <a class="text-muted text-decoration-none fs-5 color-black" href="tel:+57 601 302 6666">+57 601 302 6666</a>
+                            </div>
+                        </div>
+                        <div class="row py-3 border-bottom">
+                            <div class="col-12">
+                                <i class="fa-solid fa-envelope me-3"></i>
+                                <a class="text-muted text-decoration-none fs-5 color-black" href="mailto: info@bogotamotorcompany.com" subject="Hola">info@bogotamotorcompany.com</a>
+                            </div>
+                        </div>
+                        <div class="row py-3 border-bottom">
+                            <div class="col-12">
+                                <i class="fa-solid fa-envelope me-3"></i>
+                                <a class="text-muted text-decoration-none fs-5 color-black" href="mailto: notificaciones@bogotamotorcompany.com" subject="Hola">notificaciones@bogotamotorcompany.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-lg-6 mb-3">
+                <h2 class="text-center text-lg-start">Escríbenos</h2>
+                <div class="divider mx-auto mx-lg-0 my-3"></div>
+                <p class="text-center text-lg-start">¿ Preguntas o inquietudes ? No dudes en contáctarnos</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <form class="col-12 col-lg-6 mb-3">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold">Nombre</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Juan Pérez">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@correo.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label fw-bold">Mensaje</label>
+                    <textarea class="form-control textarea" id="exampleFormControlTextarea1" rows="3" placeholder="Tu mensaje..."></textarea>
+                    <button type="button" class="btn btn-primary mt-3 button-custom">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
 
     <footer class="footer">
