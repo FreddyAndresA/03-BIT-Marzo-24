@@ -9,15 +9,15 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="icon" href="img/logo.png">
+    <link rel="icon" href="./img/logo.png">
     <title>Bogotá Motor Company</title>
 </head>
 
-<body class="position-relative">
-    <header class="container mt-5 position-absolute navbar-position">
-        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+<body>
+    <header class="container mt-4 position-fixed navbar-position">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom py-3 ">
             <div class="container-fluid">
-                <a class=" navbar-brand" href="index.html">
+                <a class=" navbar-brand" href="./index.html">
                     <img class="logo" src="./img/logo.png" alt="Logotipo">
                 </a>
                 <button class="navbar-toggler toggler" type="button" data-bs-toggle="collapse"
@@ -28,38 +28,33 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link text-muted ms-auto link-custom link-active" aria-current="page"
-                            href="index.html">Inicio</a>
-                        <a class="nav-link text-muted ms-auto link-custom" href="./html/catalogo.html">Catálogo</a>
-                        <a class="nav-link text-muted ms-auto link-custom" href="./html/nosotros.html">Nosotros</a>
-                        <a class="nav-link text-muted ms-auto link-custom" href="./html/contacto.html">Contacto</a>
-                        <a class="nav-link text-muted ms-auto link-custom" href="./html/pqr.html">PQR</a>
+                            href="./index.html">Inicio</a>
+                        <a class="nav-link text-muted ms-auto link-custom" href="./catalogo.html">Catálogo</a>
+                        <a class="nav-link text-muted ms-auto link-custom" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link text-muted ms-auto link-custom" href="./contacto.html">Contacto</a>
+                        <a class="nav-link text-muted ms-auto link-custom" href="./pqr.html">PQR</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
-
-    <!-- Mi codigo inicia aca -->
-
     <main class="main min-vh-100 d-flex justify-content-start align-items-end">
         <div class="container">
+            <p class="display-5 text-white">Próximamente...</p>
             <p class="mt-5 display-4 text-white fw-bold text-uppercase">Ducati <br> Superleggera V4</p>
+            <div class="divider"></div>
             <p class="display-1 text-white" id="launch"></p>
-            <div class="divider my-5"></div>
         </div>
     </main>
 
-
     <section class="news container">
-
-        <h1 class="display-2 text-center title">Noticias</h1>
-
+        <h2 class="display-2 text-center title">Noticias</h2>
         <div class="card mb-3">
             <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Comienza el Multistrada Tour 2022</h5>
+                        <h5 class="card-title fw-light">Comienza el Multistrada Tour 2022</h5>
                         <p class="card-text">Ducati Multistrada Tour 2022 ofrece a todos los interesados conocer mejor
                             la familia y probar alguno de los modelos V4, V2 o V2 versión para carné A2, con disposición
                             a la adquisición de una de las motocicletas. A través de la Red de Puntos de Venta
@@ -78,7 +73,7 @@
             <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Yamaha preparada para el inicio de temporada de MotoGP</h5>
+                        <h5 class="card-title fw-light">Yamaha preparada para el inicio de temporada de MotoGP</h5>
                         <p class="card-text">Fabio Quartararo y Franco Morbidelli del equipo oficial Monster Energy
                             Yamaha MotoGP completaron su programa de pruebas de pretemporada 2022 en el circuito de
                             Mandalika. Esta fue la última sesión de pruebas, antes del primer Gran Premio de la
@@ -98,7 +93,7 @@
             <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Nueva Incorporación en el Team Suzuki Ecstar</h5>
+                        <h5 class="card-title fw-light">Nueva Incorporación en el Team Suzuki Ecstar</h5>
                         <p class="card-text">Suzuki Motor Corporation y Team Suzuki Ecstar unen fuerzas en el anuncio de
                             que Livio Suppo asumirá el cargo de Team Manager para el Team Suzuki Ecstar de inmediato. No
                             es ningún secreto que el líder del proyecto, Shinichi Sahara, ha estado buscando un gerente
@@ -114,14 +109,53 @@
                 </div>
             </div>
         </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light">Presentamos el nuevo Good Times3</h5>
+                        <p class="card-text">¿Te imaginas la tranquilidad de no tenerte que preocupar, durante los
+                            primeros 3 años, ni por el mantenimiento ni por el seguro de tu nueva Kawasaki?
+                        </p>
+                        <P>¿Qué es y de qué consta el nuevo Pack Good Times3?</P>
+                        <P>Good Times3 incluye:</P>
+                        <ul>
+                            <li>3 años de mantenimiento</li>
+                            <li>3 años de seguro a terceros</li>
+                        </ul>
+                        <p>De esta manera por muy poco más de lo que cuesta tu nueva Kawasaki vas a tener cubierto los 3
+                            primeros años de mantenimiento de tu nueva motocicleta y también los 3 primeros años de
+                            seguro a terceros.
+                        </p>
+                        <p class="card-text"><small class="text-muted">22 de Febrero 2022</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="./img/n4.png" class="img-fluid rounded-start" alt="...">
+                </div>
+            </div>
+        </div>
     </section>
 
-
-    <!-- Mi codigo finaliza aca -->
+    <section class="galery container-fluid px-0">
+        <button type="button" class="btn btn-primary btn-lg my-5 mx-auto d-block px-4 py-2 button-custom">Ir al
+            Catálogo...<i class="fa-solid fa-motorcycle"></i></button>
+        <section class="gallery mt-5" id="gallery">
+            <div class="foto"><img src="./img/g1.jpg" alt="Imagen galeria"></div>
+            <div class="foto"><img src="./img/g2.jpg" alt="Imagen galeria"></div>
+            <div class="foto"><img src="./img/g3.jpg" alt="Imagen galeria"></div>
+            <div class="foto"><img src="./img/g4.jpg" alt="Imagen galeria"></div>
+            <div class="foto"><img src="./img/g5.jpg" alt="Imagen galeria"></div>
+            <div class="foto"><img src="./img/g6.jpg" alt="Imagen galeria"></div>
+            <div class="foto"><img src="./img/g7.jpg" alt="Imagen galeria"></div>
+            <div class="foto"><img src="./img/g8.jpg" alt="Imagen galeria"></div>
+        </section>
+    </section>
 
     <footer class="footer">
         <div class="container">
-            <h2 class="display-6 text-center py-5 opacity-50">Bogota Motor Company</h2>
+            <img src="./img/logo-grey.jpeg" alt="">
+            <h2 class="display-6 text-center py-5 opacity-50 text-uppercase">Bogotá Motor Company</h2>
             <div class="links d-flex justify-content-evenly py-5">
                 <a class="footer-links text-decoration-none footer-links" href="./index.html">Inicio</a>
                 <a class="footer-links text-decoration-none footer-links" href="./html/catalogo.html">Catálogo</a>
@@ -129,7 +163,8 @@
                 <a class="footer-links text-decoration-none footer-links" href="./html/contacto.html">Contacto</a>
                 <a class="footer-links text-decoration-none footer-links" href="./html/pqr.html">PQR</a>
             </div>
-            <p class="text-center py-5 opacity-50">Copyright &copy Bogota Motor Company. Una compañia sujeta a la administracion y coordinacion de actividades en BIT Institute. Todos los derechos resevados.</p>
+            <p class="text-center py-5 opacity-50">Copyright &copy Bogota Motor Company. Una compañia sujeta a la
+                administracion y coordinacion de actividades en BIT Institute. Todos los derechos resevados.</p>
         </div>
         <div class="py-5 d-flex justify-content-center ">
             <i class="fa-brands fa-facebook-f"></i>
@@ -138,7 +173,6 @@
             <i class="fa-brands fa-youtube"></i>
         </div>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
