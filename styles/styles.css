@@ -1,3 +1,7 @@
+/* -------------------------------------------------------------------------- */
+/* ESTILOS DE HEADER Y FOOTER */
+/* -------------------------------------------------------------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root {
@@ -12,7 +16,7 @@
 }
 
 .logo {
-    width: 100px;
+    width: 250px;
 }
 
 .toggler {
@@ -22,11 +26,13 @@
 .navbar-position {
     left: 50%;
     transform: translate(-50%);
+    z-index: 10;
 }
 
 .navbar-custom {
     background-color: var(--greyColor);
-    border-radius: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .link-custom {
@@ -57,13 +63,6 @@
     transition: 0.5s;
 }
 
-.body {
-    background-image: url("/img/hero-image-large.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .footer {
     background-color: var(--blackColor);
     color: var(--greyColor);
@@ -90,6 +89,3 @@
 .fa-brands:hover {
     opacity: 1;
 }
-
-/* Aca finaliza el CSS del nabvar y del footer */
-
