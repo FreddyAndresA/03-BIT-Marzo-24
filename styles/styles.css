@@ -89,3 +89,219 @@
 .fa-brands:hover {
     opacity: 1;
 }
+
+/* -------------------------------------------------------------------------- */
+/* BOTONES */
+/* -------------------------------------------------------------------------- */
+
+.button-custom-motorcycle,
+.button-custom-send {
+    background-color: var(--redColor) !important;
+    color: var(--whiteColor) !important;
+    border: none;
+    opacity: 1;
+}
+
+.fa-solid.fa-motorcycle,
+.fa-solid.fa-paper-plane {
+    color: var(--whiteColor) !important;
+}
+
+.button-custom-motorcycle:hover > .icon-motorcycle {
+    transform: translateX(4rem) rotate(-45deg);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.button-custom-send:hover > .icon-send {
+    transform: translateX(4rem) rotate(50deg);
+    opacity: 0;
+    transition: all 1s;
+}
+
+/* -------------------------------------------------------------------------- */
+/* ESTILOS DE INICIO */
+/* -------------------------------------------------------------------------- */
+
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.divider {
+    width: 10%;
+    height: 10px;
+    background-color: var(--redColor);
+}
+
+.title {
+    color: var(--redColor);
+    margin: 100px 0;
+}
+
+.card-title {
+    color: var(--redColor);
+}
+
+.gallery {
+    overflow: hidden;
+}
+
+.gallery .foto {
+    width: 50%;
+    float: left;
+}
+
+.gallery .foto img {
+    width: 100%;
+    vertical-align: top;
+    opacity: .6;
+    transition: all .5s ease;
+}
+
+.gallery .foto img:hover {
+    opacity: 1;
+    transition: all .5s ease;
+}
+
+/* -------------------------------------------------------------------------- */
+/* ESTILOS DE CONTACTO */
+/* -------------------------------------------------------------------------- */
+
+.contact {
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contactoimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+}
+
+.fa-solid {
+    color: var(--redColor);
+}
+
+.color-black {
+    color: var(--blackColor) !important;
+}
+
+.contact-title {
+    color: var(--redColor);
+}
+
+.textarea {
+    resize: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/* ESTILOS DE PQR */
+/* -------------------------------------------------------------------------- */
+
+.pqr-hero {
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pqrimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.accordion-button {
+    background-color: var(--redColor);
+    opacity: 1;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--redColor);
+    opacity: 0.9;
+}
+
+.pqr-button-custom {
+    color: var(--whiteColor) !important;
+}
+
+.pqr-form {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image:  url(../img/pqrimgsmall.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* -------------------------------------------------------------------------- */
+/* ESTILOS DE CATALOGO */
+/* -------------------------------------------------------------------------- */
+
+.carousel-custom {
+    max-height: 90vh;
+}
+
+.carousel-hover:hover {
+    transition: all 0.5s;
+}
+
+.carousel-hover:hover {
+    color: var(--redColor);
+}
+
+.image-hover {
+    transition: transform 0.5s;
+}
+
+.image-hover:hover {
+    transform: scale(1.1);
+}
+
+.card-button {
+    background-color: var(--redColor);
+}
+
+.testDrive {
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/testDrive.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* -------------------------------------------------------------------------- */
+/* ESTILOS DE NOSOTROS */
+/* -------------------------------------------------------------------------- */
+
+.nosotros-banner {
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nosotros-banner-secondary {
+    height: 30vh;
+    background-image: url(../img/nosotrosBanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.botonConfirmacion {
+    background-color: var(--redColor);
+    color: var(--whiteColor);
+}
+
+/* -------------------------------------------------------------------------- */
+/* KEYFRAMES */
+/* -------------------------------------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+    .gallery .foto {
+        width: 25%;
+    }
+}
