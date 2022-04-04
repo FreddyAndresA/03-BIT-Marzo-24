@@ -239,7 +239,7 @@
 /* -------------------------------------------------------------------------- */
 
 .carousel-custom {
-    height: 100vh;
+    max-height: 90vh;
 }
 
 .carousel-hover:hover {
@@ -290,6 +290,12 @@
     background-size: cover;
 }
 
+
+.botonConfirmacion {
+    background-color: var(--redColor);
+    color: var(--whiteColor);
+}
+
 /* -------------------------------------------------------------------------- */
 /* KEYFRAMES */
 /* -------------------------------------------------------------------------- */
@@ -298,5 +304,4 @@
     .gallery .foto {
         width: 25%;
     }
-    
 }
