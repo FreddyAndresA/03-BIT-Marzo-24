@@ -91,6 +91,35 @@
 }
 
 /* -------------------------------------------------------------------------- */
+/* BOTONES */
+/* -------------------------------------------------------------------------- */
+
+.button-custom-motorcycle,
+.button-custom-send {
+    background-color: var(--redColor) !important;
+    color: var(--whiteColor) !important;
+    border: none;
+    opacity: 1;
+}
+
+.fa-solid.fa-motorcycle,
+.fa-solid.fa-paper-plane {
+    color: var(--whiteColor) !important;
+}
+
+.button-custom-motorcycle:hover > .icon-motorcycle {
+    transform: translateX(4rem) rotate(-45deg);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.button-custom-send:hover > .icon-send {
+    transform: translateX(4rem) rotate(50deg);
+    opacity: 0;
+    transition: all 1s;
+}
+
+/* -------------------------------------------------------------------------- */
 /* ESTILOS DE INICIO */
 /* -------------------------------------------------------------------------- */
 
@@ -114,28 +143,6 @@
 
 .card-title {
     color: var(--redColor);
-}
-
-.fa-solid.fa-motorcycle {
-    color: var(--whiteColor);
-}
-
-.button-custom-motorcyle {
-    background-color: var(--redColor) !important;
-    border: none;
-    opacity: 1;
-    width: 200px;
-    transition: width 1s ease-in-out;
-}
-
-.button-custom-motorcyle:hover {
-    width: 250px;
-}
-
-.button-custom-motorcyle:hover > .fa-motorcycle {
-    opacity: 0;
-    transform: translateX(5rem) rotate(-45deg);
-    transition: all 1s;
 }
 
 .gallery {
@@ -190,24 +197,6 @@
 
 .textarea {
     resize: none;
-}
-
-.button-custom {
-    background-color: var(--redColor) !important;
-    border: none;
-    opacity: 1;
-    width: 200px;
-    transition: width 1s ease-in-out;
-}
-
-.button-custom:hover {
-    width: 250px;
-}
-
-.button-custom:hover > .icon-button {
-    opacity: 0;
-    transform: translateX(5rem) rotate(50deg);
-    transition: all 1s;
 }
 
 /* -------------------------------------------------------------------------- */
