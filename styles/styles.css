@@ -120,6 +120,24 @@
     color: var(--whiteColor);
 }
 
+.button-custom-motorcyle {
+    background-color: var(--redColor) !important;
+    border: none;
+    opacity: 1;
+    width: 200px;
+    transition: width 1s ease-in-out;
+}
+
+.button-custom-motorcyle:hover {
+    width: 250px;
+}
+
+.button-custom-motorcyle:hover > .fa-motorcycle {
+    opacity: 0;
+    transform: translateX(5rem) rotate(-45deg);
+    transition: all 1s;
+}
+
 .gallery {
     overflow: hidden;
 }
@@ -226,6 +244,43 @@
     background-position: center;
     background-size: cover;
 }
+
+/* -------------------------------------------------------------------------- */
+/* ESTILOS DE CATALOGO */
+/* -------------------------------------------------------------------------- */
+
+.carousel-custom {
+    height: 100vh;
+}
+
+.carousel-hover:hover {
+    transition: all 0.5s;
+}
+
+.carousel-hover:hover {
+    color: var(--redColor);
+}
+
+.image-hover {
+    transition: transform 0.5s;
+}
+
+.image-hover:hover {
+    transform: scale(1.1);
+}
+
+.card-button {
+    background-color: var(--redColor);
+}
+
+.testDrive {
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/testDrive.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 /* -------------------------------------------------------------------------- */
 /* KEYFRAMES */
