@@ -10,7 +10,7 @@ sendPqr.addEventListener("click", ()=> {
     if(name == "" || email == "" || message == "") {
         Swal.fire({
             title: "Gracias por tu contacto",
-            text: "Por favor selecciona diligencia todos los campos para ponerte en contacto.",
+            text: "Por favor diligencia todos los campos para ponerte en contacto.",
             icon: "warning",
             confirmButtonText: "Seleccionar",
             background: "#191613",
